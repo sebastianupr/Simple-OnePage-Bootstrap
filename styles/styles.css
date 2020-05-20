@@ -1,0 +1,124 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+header h1 {
+  color: white;
+  font-size: 5vw;
+  margin: 35vh auto;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 767px) {
+  header h1 {
+    color: white;
+    font-size: 8.5vw;
+    margin: 35vh auto;
+    text-transform: uppercase;
+  }
+}
+header nav.navbar {
+  background-color: transparent !important;
+}
+
+section.images {
+  padding: 30px 0 50px 0;
+}
+section.images h2 {
+  margin: 30px auto 35px auto;
+}
+section.images img {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+section.images img:hover {
+  transform: scale(1.1);
+}
+@media only screen and (max-width: 767px) {
+  section.images img {
+    width: 100%;
+  }
+  section.images div.images-list div.row div:last-child {
+    margin: 25px auto;
+  }
+}
+
+section.questions {
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+}
+section.questions div.container {
+  margin-top: 20px;
+}
+section.questions div.question-list {
+  margin: 12vh auto;
+}
+section.questions div.question-list li {
+  margin-top: 10px;
+}
+section.questions h2 {
+  background-color: white;
+  width: 220px;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+section.contact {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+section.contact div.container {
+  margin-top: 30px;
+}
+section.contact div.row {
+  margin-top: 40px;
+}
+section.contact div.row p {
+  padding: 10px 0 20px 0;
+}
+section.contact div.row button.btn-primary {
+  color: #fff;
+  background-color: #6e6e6e;
+  border-color: #6e6e6e;
+}
+
+footer {
+  padding: 20px;
+  margin: 0;
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+footer p {
+  color: white;
+  background-color: gray;
+  width: 330px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 400px) {
+  footer p {
+    font-size: 10px;
+    width: 200px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
