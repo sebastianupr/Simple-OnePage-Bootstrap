@@ -1,2 +1,2 @@
 # Simple-website-bootstrap
-Open index.html
+![](one-page-img.png)
